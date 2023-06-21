@@ -1,0 +1,55 @@
+.conteiner-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.registro-information{
+    margin-bottom: 10px;
+    color:#fff;
+}
+
+.card-one{
+    max-width:200px;
+    display:flex;
+    flex-direction:column;
+    
+    gap:10px;
+    padding:20px;
+    background-color: gray;
+    border-radius: 7px;
+   
+}
+
+.card-one input{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+
+.card-one h2{
+    text-align:center;
+    color:rgb(25, 79, 57);
+}
+.action{
+    padding:5px;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(112, 211, 112);
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: green;
+}
+
+span{
+    color:red;
+    font-size:13px;
+}

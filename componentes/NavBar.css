@@ -1,0 +1,22 @@
+
+.conteiner-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 25px;
+}
+
+.conteiner-link .rotas{
+    text-decoration: none;
+    color:rgb(25, 79, 57);
+    border:1px solid #333;
+    padding: 5px;
+    background-color: #fff;
+    border-radius:7px;
+}
+
+.conteiner-link .rotas:hover{
+    color: #FFF;
+    background-color:rgb(25, 79, 57) ;
+}
